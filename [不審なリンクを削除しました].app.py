@@ -19,14 +19,12 @@ with st.container():
     st.write("📅 **日時**: 2026年10月9日 (金) 19:00 キックオフ")
     st.write("📍 **会場**: 県立カシマサッカースタジアム")
     
+    ticket_url = "[suspicious link removed]"
     if member_cat == "SOCIO":
-        ticket_url = "[suspicious link removed]"
         [不審なリンクを削除しました]("🎟 **SOCIO最優先発売中！**")
     elif member_cat == "ファンクラブ":
-        ticket_url = "[suspicious link removed]"
         st.warning("🎟 **ファンクラブ先行発売中**")
     else:
-        ticket_url = "[suspicious link removed]"
         st.success("🎟 **一般発売準備中**")
 
     [不審なリンクを削除しました]_button(f"👉 {member_cat}専用チケット購入ページへ直行", ticket_url)
@@ -44,6 +42,5 @@ if st.button("✨ AIでSNS投稿文を自動生成"):
     post_text = f"【観戦日記】{score}\n{impression}\n\n#antlers #鹿島アントラーズ #AntlersSync"
     st.code(post_text)
     
-    # X (Twitter) 共有リンク
     intent_url = f"[suspicious link removed]{post_text}"
     [不審なリンクを削除しました]_button("🐤 X (旧Twitter) でシェアする", intent_url)
