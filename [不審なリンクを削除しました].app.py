@@ -34,7 +34,7 @@ st.divider()
 # AI観戦日記
 st.subheader("📝 AI観戦日記 & SNS投稿作成")
 
-score = st.text_input("試合スコア・結果メモ", "鹿島 2 - 1 G大阪 (勝利!)")
+score = st.text_input("試合スコア・結果メモ", "鹿島 2 - 0 G大阪 (勝利!)")
 impression = st.text_area("試合の感想", "優磨の待望の得点で熱狂のカシマ！最高の再スタート！")
 
 if st.button("✨ AIでSNS投稿文を自動生成"):
