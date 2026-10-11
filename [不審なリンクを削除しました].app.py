@@ -25,7 +25,7 @@ with st.container():
     elif member_cat == "ファンクラブ":
         st.warning("🎟 **ファンクラブ先行発売中**")
     else:
-        [不審なリンクを削除しました]("🎟 **一般発売準備中**")
+        st.write("🎟 **一般発売準備中**")
 
     st.markdown(f"👉 **[{member_cat}専用チケット購入ページへ直行]({ticket_url})**")
 
