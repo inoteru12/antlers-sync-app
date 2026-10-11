@@ -21,11 +21,11 @@ with st.container():
     
     ticket_url = "[suspicious link removed]"
     if member_cat == "SOCIO":
-        [不審なリンクを削除しました]("🎟 **SOCIO最優先発売中！**")
+        st.success("🎟 **SOCIO最優先発売中！**")
     elif member_cat == "ファンクラブ":
         st.warning("🎟 **ファンクラブ先行発売中**")
     else:
-        st.success("🎟 **一般発売準備中**")
+        [不審なリンクを削除しました]("🎟 **一般発売準備中**")
 
     st.markdown(f"👉 **[{member_cat}専用チケット購入ページへ直行]({ticket_url})**")
 
