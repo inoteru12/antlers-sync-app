@@ -27,7 +27,7 @@ with st.container():
     else:
         st.success("🎟 **一般発売準備中**")
 
-    [不審なリンクを削除しました]_button(f"👉 {member_cat}専用チケット購入ページへ直行", ticket_url)
+    st.markdown(f"👉 **[{member_cat}専用チケット購入ページへ直行]({ticket_url})**")
 
 st.divider()
 
@@ -43,4 +43,4 @@ if st.button("✨ AIでSNS投稿文を自動生成"):
     st.code(post_text)
     
     intent_url = f"[suspicious link removed]{post_text}"
-    [不審なリンクを削除しました]_button("🐤 X (旧Twitter) でシェアする", intent_url)
+    st.markdown(f"🐤 **[X (旧Twitter) でシェアする]({intent_url})**")
